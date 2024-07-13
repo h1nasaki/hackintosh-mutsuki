@@ -14,6 +14,14 @@
                     <key>Path</key>
                     <string>SSDT-EC-USBX-DESKTOP.aml</string>
                 </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string>for RX6650XT GPU</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-Bridge-RX6650XT.aml</string>
+                </dict>
             </array>
             <key>Delete</key>
             <array/>
