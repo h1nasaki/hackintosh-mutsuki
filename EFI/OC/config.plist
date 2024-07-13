@@ -14,6 +14,14 @@
 				<key>Path</key>
 				<string>SSDT-EC-USBX-DESKTOP.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Fix 6650XT</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>6650XT-Spoof2.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array/>
@@ -90,15 +98,7 @@
 	<key>DeviceProperties</key>
 	<dict>
 		<key>Add</key>
-		<dict>
-			<key>PciRoot(0x0)/Pci(0x3,0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>device-id</key>
-				<data>/3MAAA==</data>
-				<key>model</key>
-				<string>Radeon RX6650 XT</string>
-			</dict>
-		</dict>
+		<dict/>
 		<key>Delete</key>
 		<dict/>
 	</dict>
