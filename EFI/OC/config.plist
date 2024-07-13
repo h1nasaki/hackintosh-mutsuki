@@ -14,14 +14,6 @@
 				<key>Path</key>
 				<string>SSDT-EC-USBX-DESKTOP.aml</string>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>for RX6650XT GPU</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-Bridge-RX6650XT.aml</string>
-			</dict>
 		</array>
 		<key>Delete</key>
 		<array/>
@@ -104,7 +96,7 @@
 				<key>device-id</key>
 				<data>/3MAAA==</data>
 				<key>model</key>
-				<string>Radeon RX6650XT</string>
+				<string>Radeon RX6650 XT</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1293,8 +1285,8 @@
 				<false/>
 				<key>Path</key>
 				<string>HfsPlus.efi</string>
-            </dict>
-            <dict>
+			</dict>
+			<dict>
 				<key>Arguments</key>
 				<string></string>
 				<key>Comment</key>
