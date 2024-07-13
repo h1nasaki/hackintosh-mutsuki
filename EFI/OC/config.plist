@@ -20,7 +20,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>6650XT-Spoof.aml</string>
+				<string>SSDT-Bridge-RX6650XT.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -98,7 +98,15 @@
 	<key>DeviceProperties</key>
 	<dict>
 		<key>Add</key>
-        <dict/>
+		<dict>
+			<key>PciRoot(0x0)/Pci(0x3,0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>device-id</key>
+				<data>/3MAAA==</data>
+				<key>model</key>
+				<string>Radeon RX6650XT</string>
+			</dict>
+		</dict>
 		<key>Delete</key>
 		<dict/>
 	</dict>
