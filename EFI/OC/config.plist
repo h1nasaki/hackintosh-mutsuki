@@ -78,7 +78,7 @@
 			<key>RebuildAppleMemoryMap</key>
 			<true/>
 			<key>ResizeAppleGpuBars</key>
-			<real>0.0</real>
+			<real>-1</real>
 			<key>SetupVirtualMap</key>
 			<false/>
 			<key>SignalAppleOS</key>
